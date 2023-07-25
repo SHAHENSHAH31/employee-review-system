@@ -37,7 +37,7 @@ app.use(
       maxAge: 1000 * 60 * 100,
     },
     store: MongoStore.create({
-      mongoUrl: 'mongodb+srv://tyagichanchal407:Shahenshah@cluster0.vmyxmud.mongodb.net/?retryWrites=true&w=majority',
+      mongoUrl: 'mongodb+srv://tyagichanchal407:Shahenshah@cluster0.vmyxmud.mongodb.net/employee_review_system?retryWrites=true&w=majority',
       autoRemove: 'disabled',
     }),
     function(err) {
